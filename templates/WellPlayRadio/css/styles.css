@@ -1,0 +1,159 @@
+/*============================================
+
+	Чистый HTML шаблон.
+
+	Тарасенко Сергей
+	E-mail: tarasenko-by@mail.ru
+	VK.com: vk.com/sergei_tarasenko
+	Site: creade.ru
+	© 2014-2017
+
+============================================*/
+
+
+
+
+
+/*============================================ 
+	Основные стили
+============================================*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	color: #222;
+	font-size: 12px;
+}
+
+
+
+/*============================================ 
+	Шапка сайта
+============================================*/
+div.header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+div.logotype {
+	font-size: 20px;
+}
+
+input.search {
+	height: 30px;
+	border-radius: 15px;
+	font-size: 12px;
+	border-right: none;
+}
+
+div.search {
+	height: 24px;
+	font-size: 12px;
+	border-radius: 15px;
+	background: #fff;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+div.search > a {
+	color: #777;
+}
+
+
+
+/*============================================ 
+	Авторизация и регистрация
+============================================*/
+ul.nav-pills > li.dropdown > a.dropdown-toggle,
+ul.nav-pills > li.dropdown > a.dropdown-toggle:hover,
+ul.nav-pills > li.dropdown > a.dropdown-toggle:focus {
+	background: none;
+}
+
+ul.nav-pills a.btn-block,
+ul.nav-pills button.btn-block {
+	color: #fff;
+}
+
+ul.dropdown-menu > li > a {
+	line-height: 28px;
+}
+
+a.btn-exit, ul.user li:first-child {
+	margin-top: 10px;
+}
+
+ul.dropdown-menu > li > a > i {
+	margin-right: 10px;
+}
+
+img.photo-reg {
+	height: 22px;
+	width: 22px;
+	border-radius: 11px;
+	margin-right: 5px;
+}
+
+#login_name, #login_password {
+	width: 200px;
+	height: 30px;
+}
+
+li > input, .btn, .login_form__foot a {
+	margin: 0px 15px 10px 15px;
+}
+
+#login_name {
+	margin-top: 10px;
+}
+
+.dropdown .dropdown-toggle {
+	height: 30px;
+	padding: 4px 10px;
+	width: 230px;
+}
+
+.dropdown-toggle:focus {
+	background-color: #85c7ff;
+}
+
+.dropdown .dropdown-toggle img {
+	border-radius: 18px;
+}
+
+div.log-form {
+	height: 26px;
+}
+
+.btn {
+	width: 200px;
+}
+
+ul.user > li > a.admin-link {
+	color: #3394e6;
+}
+
+
+
+/*============================================ 
+					Баннер	
+============================================*/
+div.banners {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+
+
+/*============================================ 
+				Контентная часть	
+============================================*/
+.main {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+div.block-name {
+	background: #242a30;
+	padding: 15px;	
+}
